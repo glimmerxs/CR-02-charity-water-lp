@@ -55,15 +55,14 @@ body {
 
 /* Hero Section styles */
 .hero {
-  /* This sets the hero image as the background */
+  /* The background image for the hero section.
+     Make sure 'hero.jpg' is in the same folder as your HTML file.
+     This image will fill the hero section. */
   background-image: url('hero.jpg');
-  background-size: cover;
-  /* Make the image cover the whole section */
-  background-position: center;
-  /* Center the image */
+  background-size: cover; /* Make the image cover the whole section */
+  background-position: center; /* Center the image */
   position: relative;
-  height: 85vh;
-  /* Make the hero section tall */
+  height: 85vh; /* Make the hero section tall */
   min-height: 600px;
   color: white;
   display: flex;
