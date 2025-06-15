@@ -54,12 +54,13 @@ body {
 
 /* Hero Section styles */
 .hero {
+  /* This sets the hero image as the background */
+  background-image: url('hero.jpg');
+  background-size: cover;      /* Make the image cover the whole section */
+  background-position: center; /* Center the image */
   position: relative;
-  height: 85vh;
+  height: 85vh;                /* Make the hero section tall */
   min-height: 600px;
-  background-image: url('hero.jpg'); /* Use your attached hero image */
-  background-size: cover;
-  background-position: center;
   color: white;
   display: flex;
   align-items: center;
