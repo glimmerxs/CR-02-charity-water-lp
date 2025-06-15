@@ -50,7 +50,7 @@ body {
 
 .sign-in-btn:hover {
   background-color: #FFD84D;
-  border-radius: 10px; /* Makes the button edges more rounded */
+  border-radius: 50px; /* Makes the button edges more rounded */
 }
 
 /* Hero Section styles */
