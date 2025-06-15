@@ -1,4 +1,4 @@
-/* Use a simple, readable font */
+/* Basic body styles */
 body {
   margin: 0;
   font-family: 'Montserrat', 'Avenir', 'Proxima Nova', Arial, sans-serif;
@@ -6,23 +6,21 @@ body {
 
 /* Navigation Bar styles */
 .navbar {
-  display: flex; /* Arrange items in a row */
-  align-items: center; /* Vertically center items */
-  background-color: #17408F; /* Dark blue */
+  display: flex;
+  align-items: center;
+  background-color: #17408F;
   padding: 10px 20px;
   justify-content: space-between;
 }
 
-/* Logo on the left */
 .logo {
   height: 40px;
 }
 
-/* Navigation links in the center */
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px; /* Space between links */
+  gap: 30px;
   margin: 0;
   padding: 0;
 }
