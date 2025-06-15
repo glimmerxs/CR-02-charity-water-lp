@@ -12,10 +12,12 @@
   <!-- Navigation Bar -->
   <nav class="navbar">
     <!-- charity: water logo on the left -->
-    <img src="logo.png" alt="charity: water" class="logo">
+    <div class="logo-container">
+      <img src="img/Lg.png" class="logo-img" alt="charity: water">
+    </div>
     <!-- Navigation links -->
     <ul class="nav-links">
-      <li><a href="#">ABOUT US</a></li
+      <li><a href="#">ABOUT US</a></li>
       <li><a href="#">TAKE ACTION</a></li>
       <li><a href="#">PROJECTS</a></li>
     </ul>
@@ -29,20 +31,32 @@
     We do not use an <img> tag for the hero image.
     The background image is set using the .hero class in styles.css.
   -->
-  <section class="hero">
+  <section class="hero
+">
     <!-- Overlay to darken the image for text readability -->
     <div class="overlay"></div>
     <div class="hero-content">
       <!-- Main headline -->
-      <h1>Be The Drop<br>That Ripples A Wave</h1>
+      <h1>Be The Drop<br>That Ripples A<br>Wave</h1>
       <!-- Subheadline -->
       <p class="subheadline">
-            Join our mission to fund clean water projects for<br>
-        communities in need and create a real impact in health,<br>
-                   hygiene and hope for millions,
+        Join our mission to fund clean water projects for<br>communities in need and create a real impact in <br>health,hygiene and hope for millions.
       </p>
       <!-- Donate Now button -->
       <div class="donate-container">
+        <!-- Four yellow L-shaped corners for the donate box -->
+        <div class="donate-corner tl">
+          <span class="h"></span><span class="v"></span>
+        </div>
+        <div class="donate-corner tr">
+          <span class="h"></span><span class="v"></span>
+        </div>
+        <div class="donate-corner bl">
+          <span class="h"></span><span class="v"></span>
+        </div>
+        <div class="donate-corner br">
+          <span class="h"></span><span class="v"></span>
+        </div>
         <button class="donate-btn">
           DONATE<br>NOW<br>
           <span class="water-emoji">💧</span>
@@ -52,11 +66,19 @@
       <p class="gift-text">
         100% of your gift— no matter the size—goes directly toward our cause.
       </p>
-      <!-- Two action buttons at the bottom right -->
-      <div class="action-buttons">
-        <button class="action-btn">TRACK THE IMPACT</button>
-        <button class="action-btn">JOIN THE TEAM</button>
-      </div>
+    </div>
+    <!-- Move the action buttons outside hero-content so they align to the right edge of the hero section -->
+    <div class="hero-actions">
+      <!-- Track the Impact button -->
+      <button class="action-btn">
+        TRACK THE IMPACT
+        <span class="down-caret">&#8964;</span>
+      </button>
+      <!-- Join the Team button -->
+      <button class="action-btn">
+        JOIN THE TEAM
+        <span class="down-caret">&#8964;</span>
+      </button>
     </div>
     <!-- Hero image as background, not as an <img> tag -->
   </section>
